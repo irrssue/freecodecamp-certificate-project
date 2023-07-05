@@ -1,7 +1,7 @@
 #survey-form {
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.813);
+  background-color: rgba(0, 0, 0, 0.58);
   width: 65%;
   margin: auto;
 
@@ -16,6 +16,15 @@
   margin: 10px 10px 10px 0;
 }
 
-#name, #email, #age {
+#name, #email, #age, #dropdown {
   margin-bottom: 27px;
-}   /* there is more to add */
+} 
+
+#survey-form input, select, textarea{
+  font-size: 20px;
+  padding: 18px;
+  border-radius: 8.5px;
+}
+
+
+
