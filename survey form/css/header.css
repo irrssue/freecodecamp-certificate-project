@@ -1,0 +1,28 @@
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.header {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin: 40px auto 25px auto;
+  width: 80%;
+}
+
+#title {
+  margin: 0;
+  font-size: 38px;
+  word-spacing: 7px;
+}
+
+#description {
+  color: rgb(213, 211, 211);
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 300;
+  width: 80%;
+  margin: 10px auto 30px auto;
+}
