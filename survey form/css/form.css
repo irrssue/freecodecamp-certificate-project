@@ -27,4 +27,27 @@
 }
 
 
+.recommand input {
+  transform: scale(2.3);
+  margin: 0 15px 0 5px;
+}
 
+.fav {
+  margin: 20px;
+}
+
+textarea {
+  border-radius: 0;
+  font-family: Inter;
+
+  height: 100px;
+}
+
+button {
+  margin-top: 40px;
+  background: rgb(5, 149, 5);
+  color: rgba(255, 255, 255, 0.768);
+  font-size: 20px;
+
+  padding: 20px 0 20px 0;
+}
