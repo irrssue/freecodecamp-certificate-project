@@ -1,1 +1,1 @@
-This is the certificate projects form [freecodecamps](https://www.freecodecamp.org/)
+This is the certificate projects from [freecodecamps](https://www.freecodecamp.org/)
