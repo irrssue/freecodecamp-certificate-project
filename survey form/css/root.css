@@ -14,3 +14,9 @@ body {
   background-blend-mode: darken;
 }
 
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
