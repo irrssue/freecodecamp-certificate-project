@@ -1,0 +1,21 @@
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.813);
+  width: 65%;
+  margin: auto;
+
+  padding: 56px;
+}
+
+
+#survey-form label {
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  margin: 10px 10px 10px 0;
+}
+
+#name, #email, #age {
+  margin-bottom: 27px;
+}   /* there is more to add */
