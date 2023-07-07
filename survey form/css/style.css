@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  height: 100vh;
+
+  background-image: url(../img/caleb-smith-JcmBaBRcdTY-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+
+
+.header {
+  color: white;
+  font-family: 'Inter', sans-serif;
+  text-align: center;
+  margin: 75px auto 30px auto;
+  width: 80%;
+}
+
+#title {
+  margin: 0;
+  font-size: 38px;
+  word-spacing: 7px;
+}
+
+#description {
+  color: rgb(213, 211, 211);
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 300;
+  width: 80%;
+  margin: 10px auto 30px auto;
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.58);
+  width: 65%;
+  margin: auto;
+
+  padding: 56px;
+}
+
+
+#survey-form label {
+  color: white;
+  font-size: 25px;
+  font-family: Inter;
+  margin: 10px 10px 10px 0;
+}
+
+#name, #email, #age, #dropdown {
+  margin-bottom: 27px;
+} 
+
+#survey-form input, select, textarea{
+  font-size: 20px;
+  padding: 18px;
+  border-radius: 8.5px;
+}
+
+
+.recommand input {
+  transform: scale(2.3);
+  margin: 0 15px 0 5px;
+}
+
+.fav {
+  margin: 20px;
+}
+
+textarea {
+  border-radius: 0;
+  font-family: Inter;
+
+  height: 100px;
+}
+
+button {
+  margin-top: 40px;
+  background: rgb(5, 149, 5);
+  color: rgba(255, 255, 255, 0.768);
+  font-size: 20px;
+
+  padding: 20px 0 20px 0;
+}
