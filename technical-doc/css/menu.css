@@ -1,0 +1,37 @@
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: #f0f0f0;
+  overflow-y: auto;
+
+  padding: 30px;
+}
+
+@media (max-width: 750px){
+  .menu {
+      display:none;
+  }
+}
+
+.menu-title {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 50px;
+
+  padding-bottom: 20px;
+
+  border-bottom: 1px dotted black;
+
+  width: 80%;
+}
+
+.menu #menu-bar ol{
+  list-style-type: circle;
+}
+
+.menu #menu-bar ol li {
+  margin-bottom: 10px;
+}
