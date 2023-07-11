@@ -1,0 +1,17 @@
+.nav-bar-div {
+  background: rgba(203, 203, 203, 0.495);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100%;
+  padding: 20px 0;
+  transition: all 0.5 ease;
+
+}
+
+
+.nav-bar .list li,a{
+  text-decoration: none;
+  font-size: 26px;
+}
